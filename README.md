@@ -4,31 +4,34 @@ laravel-vestacp is a package designed to make calling the VestaCP API from withi
 ## Installation instructions
 
 1. Add the package to the require array in composer.json.
-```
-"require": {
-        "php": ">=5.5.9",
-        "laravel/framework": "5.1.*",
-        "gwiddle/laravel-vestacp": "*"
-    },
-```
-2. Add the Service Provider and Facade to config/app.php
-```php
-'providers' => [
-//...
-Gwiddle\LaravelVestaCP\VestaCPServiceProvider::class,
-],
 
-'aliases' => [
-//...
-'VestaCP'   => Gwiddle\LaravelVestaCP\Facades\VestaCP::class,
-],
-```
+        ```
+        "require": {
+                "php": ">=5.5.9",
+                "laravel/framework": "5.1.*",
+                "gwiddle/laravel-vestacp": "*"
+            },
+        ```
+2. Add the Service Provider and Facade to config/app.php
+
+        ```php
+        'providers' => [
+        //...
+        Gwiddle\LaravelVestaCP\VestaCPServiceProvider::class,
+        ],
+        
+        'aliases' => [
+        //...
+        'VestaCP'   => Gwiddle\LaravelVestaCP\Facades\VestaCP::class,
+        ],
+        ```
 3. Configure the required environment variables in .env
-```
-VESTACP_HOSTNAME=blah.blah.com
-VESTACP_USERNAME=admin
-VESTACP_PASSWORD=thisissosecure
-```
+
+        ```
+        VESTACP_HOSTNAME=blah.blah.com
+        VESTACP_USERNAME=admin
+        VESTACP_PASSWORD=thisissosecure
+        ```
 4. Enjoy!
 
 ## Basic usage
