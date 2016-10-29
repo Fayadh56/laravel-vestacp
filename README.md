@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # laravel-vestacp
 laravel-vestacp is a package designed to make calling the VestaCP API from within a Laravel application quicker and easier.
 
@@ -60,3 +61,6 @@ VestaCP::call("v-add-user", ["username", "password", "email", "package", "firstn
 ---
 
 Made with :heart: by the [Gwiddle Development Team](https://gwiddle.co.uk/about-us). 
+=======
+# laravel-vestacp
+>>>>>>> 1c63cc72decacab0243dbdcfcf683f8d89c29b34
