@@ -1,0 +1,12 @@
+{
+    "name": "gwiddle/laravel-vestacp",
+    "description": "Laravel 5 package to aid interaction with the VestaCP API",
+    "authors": [
+        {
+            "name": "Gwiddle Development Team",
+            "email": "webmaster@gwiddle.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
