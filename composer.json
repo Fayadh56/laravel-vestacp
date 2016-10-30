@@ -1,6 +1,7 @@
 {
     "name": "gwiddle/laravel-vestacp",
     "description": "Laravel 5 package to aid interaction with the VestaCP API",
+    "license": "GPLv3",
     "authors": [
         {
             "name": "Gwiddle Development Team",
