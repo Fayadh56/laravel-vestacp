@@ -8,7 +8,7 @@ laravel-vestacp is a package designed to make calling the VestaCP API from withi
         "require": {
                 "php": ">=5.5.9",
                 "laravel/framework": "5.1.*",
-                "gwiddle/laravel-vestacp": "*"
+                "gwiddle/laravel-vestacp": "dev-master"
             },
         
 2. Add the Service Provider and Facade to config/app.php
